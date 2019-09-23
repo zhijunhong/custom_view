@@ -6,6 +6,12 @@ import android.animation.PropertyValuesHolder;
 import android.view.View;
 
 public class AnimationUtils {
+    /**
+     * 控件上下震动
+     *
+     * @param view 被操作view
+     * @return 属性动画
+     */
     public static ObjectAnimator tada(View view) {
         return tada(view, 1f);
     }
@@ -56,6 +62,12 @@ public class AnimationUtils {
         return ObjectAnimator.ofPropertyValuesHolder(view, pvhScaleX, pvhScaleY, pvhRotate).setDuration(1000);
     }
 
+    /**
+     * 控件左右震动
+     *
+     * @param view 被操作view
+     * @return 属性动画
+     */
     public static ObjectAnimator nope(View view) {
         int delta = view.getResources().getDimensionPixelOffset(R.dimen.spacing_medium);
 
