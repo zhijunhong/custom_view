@@ -1,4 +1,4 @@
-package com.example.qyz_chapter_six;
+package com.example.qyz_chapter_six.fermode;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -14,6 +14,8 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
+
+import com.example.qyz_chapter_six.R;
 
 public class PorterDuffModeScrIn extends View {
     private Paint mPaint;
