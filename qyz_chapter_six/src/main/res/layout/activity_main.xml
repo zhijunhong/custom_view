@@ -6,48 +6,54 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--
-    <com.example.qyz_chapter_six.fermode.PorterDuffModeScrIn
-        android:id="@+id/src_in"
-        android:layout_width="290dp"
-        android:layout_height="150dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <!--
+        <com.example.qyz_chapter_six.fermode.PorterDuffModeScrIn
+            android:id="@+id/src_in"
+            android:layout_width="290dp"
+            android:layout_height="150dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <com.example.qyz_chapter_six.fermode.XfermodeView
-        android:id="@+id/dst_in"
-        android:layout_width="290dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/src_in" />
+        <com.example.qyz_chapter_six.fermode.XfermodeView
+            android:id="@+id/dst_in"
+            android:layout_width="290dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/src_in" />
 
-    <com.example.qyz_chapter_six.shader.BitmapShaderView
-        android:id="@+id/bsv"
-        android:layout_width="290dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dst_in" />
+        <com.example.qyz_chapter_six.shader.BitmapShaderView
+            android:id="@+id/bsv"
+            android:layout_width="290dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dst_in" />
 
-    <com.example.qyz_chapter_six.gradient.LinearGradientView
-        android:id="@+id/lgv"
-        android:layout_width="wrap_content"
-        android:layout_height="150dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bsv"
-        />
--->
+        <com.example.qyz_chapter_six.gradient.LinearGradientView
+            android:id="@+id/lgv"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bsv"
+            />
+    -->
 
-    <com.example.qyz_chapter_six.surfaceview.CustomSurfaceSineView
-        app:layout_constraintTop_toTopOf="parent"
+    <!--    <com.example.qyz_chapter_six.surfaceview.CustomSurfaceSineView
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            />-->
+
+    <com.example.qyz_chapter_six.surfaceview.CustomSurfaceBoardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintLeft_toLeftOf="parent"
-
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
