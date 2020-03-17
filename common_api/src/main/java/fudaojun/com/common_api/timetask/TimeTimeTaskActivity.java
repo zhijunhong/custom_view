@@ -1,4 +1,4 @@
-package fudaojun.com.common_api;
+package fudaojun.com.common_api.timetask;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -9,6 +9,8 @@ import android.widget.TextView;
 
 import java.util.Timer;
 import java.util.TimerTask;
+
+import fudaojun.com.common_api.R;
 
 public class TimeTimeTaskActivity extends Activity {
     private TextView mTvTextIndex;
