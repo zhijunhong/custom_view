@@ -9,6 +9,8 @@ import android.view.View;
 import androidx.annotation.RequiresPermission;
 import androidx.appcompat.app.AppCompatActivity;
 
+import fudaojun.com.custom_view.utils.ToastUtil;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -27,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.tv_clouded).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                ToastUtil.makeText(MainActivity.this, "跳转毛玻璃效果", ToastUtil.LENGTH_SHORT);       //自定义Toast
+
                 Intent intent = new Intent(MainActivity.this, CloudedGlassActivity.class);
                 startActivity(intent);
             }
