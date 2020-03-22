@@ -10,6 +10,8 @@
         android:id="@+id/tv_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/shape_bg"
+        android:padding="5dp"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.7"
@@ -26,6 +28,15 @@
         android:text="毛玻璃效果"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/shape_dot"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_text" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
