@@ -1,1 +1,1 @@
-include ':app', ':common_api', ':zan_animation', ':qyz_chapter_six', ':qyz_chapter_seven','toggle_iew','view_shake'
+include ':app', ':common_api', ':zan_animation', ':qyz_chapter_six', ':qyz_chapter_seven', ':basic_animation','toggle_iew','view_shake'

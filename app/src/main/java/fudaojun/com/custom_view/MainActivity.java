@@ -29,16 +29,17 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.tv_clouded).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ToastUtil.makeText(MainActivity.this, "跳转毛玻璃效果", ToastUtil.LENGTH_SHORT);       //自定义Toast
-
                 Intent intent = new Intent(MainActivity.this, CloudedGlassActivity.class);
                 startActivity(intent);
             }
         });
     }
 
-    @RequiresPermission(allOf = {Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE})
+    @RequiresPermission(allOf = {Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE,})
     private void openContacts() {
+
+        ToastUtil.makeText(MainActivity.this, "打开联系人", ToastUtil.LENGTH_LONG).show();       //自定义Toast
+
         Intent intent = new Intent(Intent.ACTION_PICK);
         intent.setType(ContactsContract.CommonDataKinds.StructuredPostal.CONTENT_TYPE);
         startActivityForResult(intent, 1);
