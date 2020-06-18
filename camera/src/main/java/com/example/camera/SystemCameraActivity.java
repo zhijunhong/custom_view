@@ -68,8 +68,8 @@ public class SystemCameraActivity extends AppCompatActivity {
 
                             //拍照
                             Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                            fileUri = getOutputMediaFileUri(MEDIA_TYPE_IMAGE);                      // create a file to save the image
-                            intent.putExtra(MediaStore.EXTRA_OUTPUT, fileUri);
+//                            fileUri = getOutputMediaFileUri(MEDIA_TYPE_IMAGE);                      // create a file to save the image
+//                            intent.putExtra(MediaStore.EXTRA_OUTPUT, fileUri);
                             startActivityForResult(intent, CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE);
 
                             //拍摄视频
@@ -94,7 +94,7 @@ public class SystemCameraActivity extends AppCompatActivity {
         if (requestCode == CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE) {
             if (resultCode == RESULT_OK) {
                 String tip;
-                if (data != null && data.getData() != null) {
+                if (data != null) {
                     tip = "Image saved to:" + data.getParcelableExtra("data");               //系统目录
                 } else {
                     tip = "Image saved to:" + fileUri;                                              //指定目录
@@ -125,7 +125,7 @@ public class SystemCameraActivity extends AppCompatActivity {
     }
 
     private static File getOutputMediaFile(int type) {
-        File mediaStorageDir = new File(Environment.getExternalStorageDirectory(), "MyCameraApp");
+        File mediaStorageDir = new File(Environment.getExternalStorageDirectory(), "camera_app");
         if (!mediaStorageDir.exists()) {
             if (!mediaStorageDir.mkdirs()) {
                 Log.d("MyCameraApp", "failed to create directory");

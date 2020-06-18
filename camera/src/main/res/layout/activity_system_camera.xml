@@ -9,7 +9,7 @@
         android:id="@+id/btn_open_camera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="打开系统相册"
+        android:text="打开系统相机"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
