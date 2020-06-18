@@ -1,4 +1,4 @@
-package com.example.camera;
+package com.example.camera.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,11 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.camera.R;
+
+/**
+ * 分发跳转
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -26,7 +31,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //自定义camera
-                // TODO: 2020-06-18
+                //系统camera
+                Intent intent = new Intent(MainActivity.this, CustomCameraActivity.class);
+                startActivity(intent);
             }
         });
     }

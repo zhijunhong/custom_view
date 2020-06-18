@@ -1,4 +1,4 @@
-package com.example.camera;
+package com.example.camera.activity;
 
 import android.Manifest;
 import android.content.Intent;
@@ -14,6 +14,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.camera.R;
 import com.permissionx.guolindev.PermissionX;
 import com.permissionx.guolindev.callback.RequestCallback;
 
@@ -128,7 +129,7 @@ public class SystemCameraActivity extends AppCompatActivity {
         File mediaStorageDir = new File(Environment.getExternalStorageDirectory(), "camera_app");
         if (!mediaStorageDir.exists()) {
             if (!mediaStorageDir.mkdirs()) {
-                Log.d("MyCameraApp", "failed to create directory");
+                Log.i("MyCameraApp", "failed to create directory");
                 return null;
             }
         }
