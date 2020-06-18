@@ -23,8 +23,6 @@ import java.util.List;
  * 自定义camera
  */
 public class CustomCameraActivity extends BaseActivity {
-    private static final String TAG = "CustomCameraActivity";
-
     private Camera mCamera;
     private CameraPreview mCameraPreview;
     private Button mBtnCapture;
