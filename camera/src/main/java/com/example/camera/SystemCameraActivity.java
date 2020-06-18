@@ -68,8 +68,8 @@ public class SystemCameraActivity extends AppCompatActivity {
 
                             //拍照
                             Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-//                            fileUri = getOutputMediaFileUri(MEDIA_TYPE_IMAGE);                      // create a file to save the image
-//                            intent.putExtra(MediaStore.EXTRA_OUTPUT, fileUri);
+                            fileUri = getOutputMediaFileUri(MEDIA_TYPE_IMAGE);                      // create a file to save the image
+                            intent.putExtra(MediaStore.EXTRA_OUTPUT, fileUri);
                             startActivityForResult(intent, CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE);
 
                             //拍摄视频
