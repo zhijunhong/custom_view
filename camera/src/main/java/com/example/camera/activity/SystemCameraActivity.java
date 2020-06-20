@@ -58,6 +58,9 @@ public class SystemCameraActivity extends AppCompatActivity {
         StrictMode.setVmPolicy(builder.build());
     }
 
+    /**
+     * 启动系统相机
+     */
     private void openCapturePicOrVideo() {
         PermissionX.init(this)
                 .permissions(Manifest.permission.WRITE_EXTERNAL_STORAGE)
