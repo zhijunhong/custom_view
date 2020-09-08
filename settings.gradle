@@ -1,1 +1,2 @@
+include ':clean_animation'
 include ':app', ':common_api', ':zan_animation', ':qyz_chapter_six', ':qyz_chapter_seven', ':basic_animation', ':camera','toggle_iew','view_shake'
