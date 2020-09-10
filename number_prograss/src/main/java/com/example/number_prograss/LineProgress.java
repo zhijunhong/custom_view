@@ -189,7 +189,7 @@ public class LineProgress extends View {
     }
 
     /**
-     * 不显示文本
+     * 显示文本
      */
     private void drawRectFWithText() {
         mCurrentDrawText = String.format("%d", getCurrent());
