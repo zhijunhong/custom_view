@@ -1,4 +1,4 @@
-package com.example.sticky_title;
+package com.example.view_sticky;
 
 import org.junit.Test;
 

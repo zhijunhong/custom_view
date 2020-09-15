@@ -1,9 +1,9 @@
-package com.example.sticky_title;
+package com.example.view_sticky;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.ScrollView;
- 
+
 /**
  * Created by jkloshhm on 2017/11/24.
  *

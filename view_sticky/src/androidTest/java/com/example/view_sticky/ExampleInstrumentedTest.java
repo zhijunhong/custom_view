@@ -1,4 +1,4 @@
-package com.example.sticky_title;
+package com.example.view_sticky;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.sticky_title", appContext.getPackageName());
+        assertEquals("com.example.view_sticky", appContext.getPackageName());
     }
 }
