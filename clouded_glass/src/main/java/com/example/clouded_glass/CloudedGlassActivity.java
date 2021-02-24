@@ -1,4 +1,4 @@
-package fudaojun.com.custom_view;
+package com.example.clouded_glass;
 
 import android.os.Bundle;
 import android.view.WindowManager;

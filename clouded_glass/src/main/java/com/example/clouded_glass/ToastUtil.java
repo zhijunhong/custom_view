@@ -1,4 +1,4 @@
-package fudaojun.com.custom_view.utils;
+package com.example.clouded_glass;
 
 import android.content.Context;
 import android.graphics.PixelFormat;
@@ -10,7 +10,6 @@ import android.view.WindowManager;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import fudaojun.com.custom_view.R;
 
 /**
  * 吐司提示的工具类，能够控制吐司的显示和隐藏
