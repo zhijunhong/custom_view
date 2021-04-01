@@ -1,6 +1,7 @@
+include ':coordinator'
 include ':clouded_glass'
 include ':view_path'
 include ':view_sticky'
 include ':number_prograss'
 include ':clean_animation'
-include ':app', ':common_api', ':zan_animation', ':qyz_chapter_six', ':qyz_chapter_seven', ':basic_animation','toggle_iew','view_shake'
+include ':app', ':common_api', ':zan_animation', ':qyz_chapter_six', ':qyz_chapter_seven', ':basic_animation','toggle_view','view_shake'

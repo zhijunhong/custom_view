@@ -1,0 +1,9 @@
+<resources>
+
+    <!--基本信息样式-->
+    <style name="style_text_view">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>
