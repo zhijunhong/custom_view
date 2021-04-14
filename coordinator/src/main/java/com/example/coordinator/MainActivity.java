@@ -35,8 +35,7 @@ public class MainActivity extends AppCompatActivity {
                     int color = palette.getVibrantColor(getResources().getColor(R.color.white));
                     collapsingToolbarLayout.setContentScrimColor(color);
 
-                    //因为我暂时没有找到比较好的透明状态栏来适配这一套效果布局。
-                    //因此就直接替换掉StatusBar的颜色，这样其实也蛮好看的。
+                    //暂时没有找到比较好的透明状态栏来适配这一套效果布局，因此就直接替换掉StatusBar的颜色，这样其实也蛮好看的
                     getWindow().setStatusBarColor(color);
                 });
 
