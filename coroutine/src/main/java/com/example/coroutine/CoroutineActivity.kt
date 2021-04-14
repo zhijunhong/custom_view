@@ -16,6 +16,7 @@ import java.net.URL
  * created on: 2021/4/14 11:49 AM
  * version: 1.0
  * description: kotlin协程用法demo
+ * 参考链接：https://kaixue.io/kotlin-coroutines-1/
  */
 class CoroutineActivity : AppCompatActivity() {
     companion object {
