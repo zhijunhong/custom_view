@@ -1,3 +1,4 @@
+include ':multi_recyclerview'
 include ':coroutine'
 include ':coordinator'
 include ':clouded_glass'
