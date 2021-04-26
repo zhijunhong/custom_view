@@ -6,6 +6,9 @@ import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
+/**
+ * 同一RecyclerView适配不同数据源
+ */
 class MainActivity : AppCompatActivity() {
     var mRv :RecyclerView? = null
     var moudles: ArrayList<Vistable> = ArrayList()
