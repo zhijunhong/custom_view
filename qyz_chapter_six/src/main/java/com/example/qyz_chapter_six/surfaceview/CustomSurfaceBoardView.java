@@ -106,7 +106,7 @@ public class CustomSurfaceBoardView extends SurfaceView implements SurfaceHolder
 
     private void draw() {
         try {
-            mCanvas = mHolder.lockCanvas();
+            mCanvas = mHolder.lockCanvas();                                                         //方法获得Canvas对象
             //draw something...
             mCanvas.drawColor(Color.WHITE);
             mCanvas.drawPath(mPath, mPaint);
@@ -114,7 +114,7 @@ public class CustomSurfaceBoardView extends SurfaceView implements SurfaceHolder
             e.printStackTrace();
         } finally {
             if (mCanvas != null) {
-                mHolder.unlockCanvasAndPost(mCanvas);
+                mHolder.unlockCanvasAndPost(mCanvas);                                               //方法将画布内容进行提交
             }
         }
     }
