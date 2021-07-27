@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
      * 旋转动画
      */
     private RotateAnimation buildRotateAnimation() {
-        RotateAnimation animation = new RotateAnimation(0, 360, Animation.RELATIVE_TO_SELF, 1.0f, Animation.RELATIVE_TO_SELF, 1.0f);
+        RotateAnimation animation = new RotateAnimation(0, 360, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
         animation.setDuration(1000);
         animation.setRepeatMode(Animation.RESTART);
         animation.setRepeatCount(Animation.INFINITE);
