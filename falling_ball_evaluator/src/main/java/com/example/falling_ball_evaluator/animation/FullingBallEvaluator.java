@@ -1,6 +1,8 @@
-package com.example.falling_ball_evaluator;
+package com.example.falling_ball_evaluator.animation;
 
 import android.animation.TypeEvaluator;
+
+import com.example.falling_ball_evaluator.entity.Point;
 
 /**
  * author: zhijunhong

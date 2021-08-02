@@ -1,4 +1,4 @@
-package com.example.falling_ball_evaluator;
+package com.example.falling_ball_evaluator.entity;
 
 /**
  * author: zhijunhong

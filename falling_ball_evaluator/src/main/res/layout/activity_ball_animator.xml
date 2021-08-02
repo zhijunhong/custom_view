@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".activity.MainActivity">
 
-    <com.example.falling_ball_evaluator.widget.FullingBallImageView
+    <ImageView
         android:id="@+id/iv_circle"
         android:src="@drawable/circle"
         app:layout_constraintBottom_toBottomOf="parent"

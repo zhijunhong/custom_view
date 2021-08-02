@@ -1,10 +1,13 @@
-package com.example.falling_ball_evaluator
+package com.example.falling_ball_evaluator.activity
 
 import android.animation.ValueAnimator
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.falling_ball_evaluator.animation.FullingBallEvaluator
+import com.example.falling_ball_evaluator.entity.Point
+import com.example.falling_ball_evaluator.R
 
 /**
  * 小球抛物动画
