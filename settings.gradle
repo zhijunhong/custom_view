@@ -1,3 +1,4 @@
+include ':surfaceview_view'
 include ':bottom_sheet'
 include ':fallingball_evaluator'
 include ':loading_imageview'
