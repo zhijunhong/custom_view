@@ -6,6 +6,7 @@ import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
 import android.view.animation.RotateAnimation;
+import android.view.animation.ScaleAnimation;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -34,9 +35,11 @@ public class MainActivity extends AppCompatActivity {
     private void initAnimation(View view) {
         AlphaAnimation alphaAnimation = buildAlphaAnimation();
         RotateAnimation rotateAnimation = buildRotateAnimation();
+        ScaleAnimation scaleAnimation = buildScaleAnimation();
         AnimationSet set = new AnimationSet(false);
         set.addAnimation(alphaAnimation);
         set.addAnimation(rotateAnimation);
+        set.addAnimation(scaleAnimation);
 
         view.startAnimation(set);
     }
@@ -52,6 +55,14 @@ public class MainActivity extends AppCompatActivity {
         return animation;
     }
 
+    private ScaleAnimation buildScaleAnimation() {
+        ScaleAnimation animation = new ScaleAnimation(0.0f, 1.4f, 0.0f, 1.4f,Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
+        animation.setDuration(1000);
+        animation.setRepeatMode(Animation.RESTART);
+        animation.setRepeatCount(Animation.INFINITE);
+        return animation;
+    }
+
     /**
      * 透明度动画
      */
@@ -60,6 +71,8 @@ public class MainActivity extends AppCompatActivity {
         animation.setDuration(2000);
         return animation;
     }
+
+
 
     private void initView() {
         mTvText = findViewById(R.id.tv_text);
