@@ -37,5 +37,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.btn_goto_sin_wave_view).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SinWaveActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

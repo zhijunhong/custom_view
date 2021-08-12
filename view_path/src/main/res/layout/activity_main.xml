@@ -30,4 +30,12 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_goto_radar_view" />
 
+    <Button
+        android:id="@+id/btn_goto_sin_wave_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转SinWaveView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_goto_bezier_view" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
