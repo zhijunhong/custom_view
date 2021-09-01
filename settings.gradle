@@ -1,3 +1,4 @@
+include ':view_bitmap'
 include ':hook_path'
 include ':view_group'
 include ':surfaceview_view'
