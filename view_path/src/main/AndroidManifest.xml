@@ -22,6 +22,9 @@
         <activity android:name=".SearchViewActivity" />
         <activity android:name=".BezierViewActivity" />
         <activity android:name=".SinWaveActivity" />
+        <activity android:name=".CirclePercentActivity" />
+        <activity android:name=".SimpleLineChartActivity" />
+        <activity android:name=".BezierViewActivity2" />
     </application>
 
 </manifest>

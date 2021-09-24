@@ -11,10 +11,10 @@ import androidx.appcompat.app.AppCompatActivity;
  * version: 1.0
  * description:
  */
-public class BezierViewActivity extends AppCompatActivity {
+public class BezierViewActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bezier);
+        setContentView(R.layout.activity_bezier2);
     }
 }

@@ -37,10 +37,35 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        findViewById(R.id.btn_goto_bezier_view2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, BezierViewActivity2.class);
+                startActivity(intent);
+            }
+        });
+
         findViewById(R.id.btn_goto_sin_wave_view).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, SinWaveActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        findViewById(R.id.btn_goto_circle_percent_view).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CirclePercentActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        findViewById(R.id.btn_goto_simple_line_chart_view).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SimpleLineChartActivity.class);
                 startActivity(intent);
             }
         });
