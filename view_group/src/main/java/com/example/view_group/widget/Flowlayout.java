@@ -1,4 +1,4 @@
-package com.example.view_group;
+package com.example.view_group.widget;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.example.view_group.R;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp">
+    tools:context=".MainActivity">
 
-    <com.example.view_group.Flowlayout
-        android:id="@+id/flow_layout"
+    <Button
+        android:id="@+id/btn_goto_flow_layout"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="跳转FlowLayout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/btn_goto_draw_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转FDrawMenu"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_goto_flow_layout" />
+
+    <Button
+        android:id="@+id/btn_goto_bottom_sheet_behavior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转BottomSheetBehavior"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_goto_flow_layout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
