@@ -1,3 +1,4 @@
+include ':view_region'
 include ':view_bitmap'
 include ':hook_path'
 include ':view_group'
