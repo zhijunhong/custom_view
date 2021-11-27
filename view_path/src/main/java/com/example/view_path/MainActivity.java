@@ -70,5 +70,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.btn_goto_juejin_loading_view).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, JueJinLoadingActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
