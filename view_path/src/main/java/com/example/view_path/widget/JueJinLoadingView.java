@@ -162,6 +162,7 @@ public class JueJinLoadingView extends View {
             canvas.drawPath(mPath, mPaint);
         }
 
+        mPath.reset();
         postInvalidateDelayed(100);
     }
 }
