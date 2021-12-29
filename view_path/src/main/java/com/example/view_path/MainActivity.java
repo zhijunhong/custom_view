@@ -78,5 +78,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.btn_goto_wave_loading).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, WaveLoadingViewActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }

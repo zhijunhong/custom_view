@@ -26,6 +26,7 @@
         <activity android:name=".SimpleLineChartActivity" />
         <activity android:name=".BezierViewActivity2" />
         <activity android:name=".JueJinLoadingActivity" />
+        <activity android:name=".WaveLoadingViewActivity" />
     </application>
 
 </manifest>
