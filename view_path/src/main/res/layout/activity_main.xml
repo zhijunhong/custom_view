@@ -78,5 +78,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_goto_juejin_loading_view" />
 
+    <Button
+        android:id="@+id/btn_goto_three_3d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3D动画"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_goto_wave_loading" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

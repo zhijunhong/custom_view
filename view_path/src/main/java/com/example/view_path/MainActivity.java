@@ -86,6 +86,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.btn_goto_three_3d).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ThreeDViewActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
 
     }
 }

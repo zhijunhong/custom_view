@@ -27,6 +27,7 @@
         <activity android:name=".BezierViewActivity2" />
         <activity android:name=".JueJinLoadingActivity" />
         <activity android:name=".WaveLoadingViewActivity" />
+        <activity android:name=".ThreeDViewActivity" />
     </application>
 
 </manifest>
