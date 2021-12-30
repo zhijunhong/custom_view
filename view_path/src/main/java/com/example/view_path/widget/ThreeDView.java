@@ -93,11 +93,11 @@ public class ThreeDView extends View {
     private void drawPath(Canvas canvas) {
         canvas.save();
 
-        mPath.moveTo(mCenterX, 593);
+        mPath.moveTo(mCenterX, 293);
         mPath.lineTo(mCenterX - 30, mCenterY);
-        mPath.lineTo(mCenterX, 2 * mCenterY - 593);
+        mPath.lineTo(mCenterX, 2 * mCenterY - 293);
         mPath.lineTo(mCenterX + 30, mCenterY);
-        mPath.lineTo(mCenterX, 593);
+        mPath.lineTo(mCenterX, 293);
         mPath.close();
         canvas.drawPath(mPath, mPaint);
 
@@ -122,7 +122,7 @@ public class ThreeDView extends View {
         for (int i = 0; i < 120; i++) {
             mPaint.setAlpha(255 - (mAlpha * 1 / 120));
             canvas.drawLine(mCenterX, 250, mCenterX, 270, mPaint);
-            canvas.rotate(3, mCenterX, mCenterY - 150);
+            canvas.rotate(3, mCenterX, mCenterY);
         }
 
         canvas.restore();
